@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <style>
+  body {
+      position: fixed;
+      margin-left: 60%;
+      background: #2E1114;
+      background-image: url('https://cdn.laredoute.com/blogs/images/12/3c7d04bb98116.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  label {
+      display: block;
+      color: #FAEBD7;
+  }
+  
+  .form {
+      border-radius: 25px;
+      background: #2E1114;
+      opacity: .9;
+      padding: 10px;
+      width: 180px;
+      height: 150px;
+      margin-top: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  button {
+      border-radius: 25px;
+      border-color: #950740;
+      background-color: #950740;
+      color: #FAEBD7;
+      padding: 15px 15px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+  }
+</style>
+
+<body>
+  <form action="./main.html">
+      <div class="form">
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <br>
+          <button>Sign in</button>
+      </div>
+  </form>
+</body>
+</html>

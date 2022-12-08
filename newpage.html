@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+<style>
+body {
+    background-color: #FAEBD7;
+    color: #2E1114;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E1114;
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FAEBD7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p::first-line {
+    color: #950740;
+    font-variant: small-caps;
+}
+
+footer {
+    z-index: -1;
+    padding: 14px 16px;
+    background-color: #2E1114;
+    height: 200px;
+    position: sticky;
+    width: 105%;
+    left: 0;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+    #main {
+        margin-left: 260px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    background-color: #2E1114;
+    width: 105%;
+    margin-right: 30px;
+}
+
+.flex-container>div {
+    background-color: #FAEBD7;
+    opacity: .6;
+    margin: 20px;
+    padding: 20px;
+    font-size: 10px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+    background-color: #2E1114;
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar div {
+    padding: 8px;
+    font-size: 20px;
+    display: block;
+    margin: 10px;
+}
+
+.sidebar div:hover {
+    background-color: #111;
+}
+
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
+}
+</style>
+
+<body>
+<div class="sidebar" style="color:#FAEBD7">
+    <div>Account</div>
+    <div>Trend</div>
+    <div>Fasion</div>
+</div>
+
+<div class="body-text">
+    <!-- body content -->
+</div>
+<div class="ull">
+    <ul class="ulll">
+        <div class="lii">
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./newpage.html">About</a></li>
+        <li><a href="./index.html">Registration</a></li>
+        <li><a href="./login.html">Login</a></li>
+        </div>
+    </ul>
+</div>
+
+<main id="main">
+    <br>
+    <h1>Fashion</h1>
+
+    <div class="flex-container">
+        <div>
+            <img src="https://i.pinimg.com/originals/81/78/1b/81781bc7f6be7265c5f1538403fa0b24.jpg" alt="1" width="250px" height="250px" />
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/originals/6f/21/85/6f2185ba5cfd1342295ee6fafc3fe9f1.jpg" alt="1" width="250px" height="250px" />
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/originals/62/23/05/6223056458b589bc4e687c833a36e1ea.jpg" alt="1" width="250px" height="250px" />
+        </div>
+    </div>
+
+    <p>Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture. The term implies a look defined by the fashion industry
+        as that which is trending.
+    </p>
+
+    <p>Everything that is considered fashion is available and popularized by the fashion system (industry and media). Given the rise in mass production of commodities and clothing at lower prices and global reach, sustainability has become an urgent
+        issue among politicians, brands, and consumers.
+    </p>
+</main>
+
+<footer>
+    <div style="text-align: center;">
+        <p>Author: Ayazhan Marikova</p>
+        <a href="ayazhanmarikova@gmail.com" style="color: #FAEBD7;">ayazhanmarikova@gmail.com</a>
+    </div>
+</footer>
+
+</body>
+
+</html>
